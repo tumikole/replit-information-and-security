@@ -1,0 +1,24 @@
+{
+  "homepage": "https://tumikole.github.io/fcc-infosec-challenges",
+  "name": "fcc-infosec-challenges",
+  "version": "0.0.1",
+  "description": "fcc backend boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "node myApp.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
+    "helmet": "^5.0.2"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ],
+  "license": "MIT"
+}
